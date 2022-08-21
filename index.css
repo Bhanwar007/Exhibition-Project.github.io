@@ -93,7 +93,9 @@ body {
   font-weight: bold;
   font-family: "Raleway", sans-serif;
 }
-
+.Navbarcontainer ul li a:hover {
+  color: #ff4321;
+}
 #search {
   display: flex;
 
@@ -125,7 +127,11 @@ body {
   margin-top: 40px;
   margin-left: 50px;
   margin-right: 50px;
+  /* transition: all 500ms ease-out; */
 }
+/* .img:hover{
+  /* transform: scale(1.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); */
 
 .trends {
   display: flex;
@@ -221,7 +227,14 @@ button:focus {
   border: thin;
   border-radius: 10px;
   text-decoration: none;
+  transition: all 500ms ease-out;
 }
+.newarrivalsimages:hover {
+  transform: scale(1.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
 /* price of photos */
 .imgbottomdetails {
   text-decoration: none;
@@ -297,6 +310,7 @@ span {
 
 .ac:hover img {
   transform: scale(1.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 p {
   font-weight: 600;
@@ -466,6 +480,9 @@ p {
   align-items: center;
   flex-direction: column;
   margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  height: 150px;
 }
 
 .benefit .icon {
@@ -480,4 +497,12 @@ p {
 .benefit .text {
   font-size: 24px;
   color: #777;
+}
+
+#footer ul li {
+  margin-left: -100px;
+}
+.sociallinks {
+  border-radius: 5px;
+  height: 30px;
 }
