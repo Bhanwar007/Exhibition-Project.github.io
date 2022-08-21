@@ -1,0 +1,483 @@
+/* @import url(//db.onlinewebfonts.com/c/c352028deedbafe44d35574c0214fedf?family=HMSansLatin-SemiBold); */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;1,100&display=swap");
+
+/* /* * {
+  margin: 0;
+  padding: 0;
+}
+
+.Header {
+  border: solid brown;
+  background-color: aqua;
+  border: 2px bold;
+}
+
+.Navbarcontainer ul {
+  list-style: none;
+  display: -webkit-flex;
+  display: -moz-flex;
+  margin-top: 20px;
+}
+
+.Navbarcontainer ul li a {
+  text-decoration: none;
+  color: rgb(146, 50, 50);
+  margin-left: 50px;
+  padding: 1.5rem;
+  font-weight: bold;
+}
+.Navbarcontainer {
+  display: grid;
+  grid-template-columns: 8rf 1rf;
+  width: 1100px;
+}
+
+#search {
+  display: flex;
+
+  border: 2px solid black;
+  width: 500px;
+  border-width: thin;
+  background-color: white(128, 128, 128);
+  border-color: gray(22, 20, 20);
+  border-style: solid;
+  border-radius: 15px;
+  height: 35px;
+  font-size: 20px;
+  margin-left: 50px;
+  margin-bottom: 5px;
+  margin-top: -10px;
+}
+.Navsighloginbtn {
+  columns: rgb(8, 8, 101);
+/* } 
+
+.container {
+  background-color: rgb(234, 215, 215);
+  height: 700px;
+   width: 900px; 
+  display: grid;
+  grid-template-columns: repeat(10, 5fr);
+  grid-template-rows: repeat(8, 1fr);
+
+  row-gap: 12px;
+  column-gap: 12px;
+  list-style: none;
+  display: -webkit-flex;
+  display: -moz-flex;
+  margin-top: 20px;
+}
+.item {
+  color: rgb(11, 16, 16);
+} */
+
+body {
+  /* font-family: "HM Sans Regular", "HMSansHebrew-Regular", "ヒラギノ角ゴ Pro W3",
+    "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック",
+    "MS PGothic", sans-serif; */
+  font-family: "Raleway", sans-serif;
+}
+.Navbarcontainer ul {
+  list-style: none;
+  /* display: -webkit-flex;
+  display: -moz-flex; */
+  margin-top: 20px;
+  display: flex;
+  border-bottom: 1px solid black;
+}
+.Navbarcontainer ul li a {
+  text-decoration: none;
+  color: rgb(30, 26, 26);
+  margin-left: 50px;
+  padding: 1.5rem;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+}
+
+#search {
+  display: flex;
+
+  border: 2px solid rgb(207, 188, 188);
+  width: 500px;
+  border-width: thin;
+  background-color: white(128, 128, 128);
+  border-color: gray(22, 20, 20);
+  border-style: solid;
+  border-radius: 15px;
+  height: 35px;
+  font-size: 20px;
+  margin-left: 50px;
+  margin-bottom: 5px;
+  margin-top: -10px;
+}
+.Navbarcontainer ul li a h2 {
+  justify-content: flex-start;
+}
+
+.img {
+  display: flex;
+  display: inline;
+
+  border-radius: 70px;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  margin-top: 40px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.trends {
+  display: flex;
+}
+
+.img-text {
+  margin-left: 80px;
+  font-size: small;
+  font-family: "Raleway", sans-serif;
+  line-height: 1.25;
+  font-size: 0.8125rem;
+  /* font-family: "HM Sans Semi Bold","HMSansHebrew-SemiBold","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif; */
+  font-weight: 600;
+  text-transform: none;
+}
+
+.new-img {
+  display: flex;
+
+  height: px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.imgbottomdetails {
+  display: flex;
+  text-decoration: none;
+}
+.section {
+  margin-top: 50px;
+}
+.container {
+  /* background-color: rgb(217, 16, 16); */
+  height: 190px;
+  /* width: 900px; */
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+
+  row-gap: 12px;
+  column-gap: 12px;
+  margin-left: 50px;
+  justify-content: center;
+  margin-right: 50px;
+}
+
+/* buttons in new arrivals */
+.button-top {
+  display: flex;
+  display: block;
+}
+.buttoon-top {
+  margin-top: -100px;
+}
+
+.button {
+  margin-top: 0px;
+  border: 1px solid black;
+  border-radius: 7px;
+  font-size: medium;
+  background-color: white;
+  color: black;
+  margin-right: -20px;
+  margin-left: 50px;
+  padding-left: 10px 16px;
+
+  overflow-y: hidden;
+
+  white-space: nowrap;
+  margin-top: -100px;
+}
+
+button:focus {
+  background-color: #e50010;
+  border-color: #e50010;
+}
+/* new arrivals */
+.newarrivalsimg {
+  /* background-color: rgb(217, 16, 16); */
+  height: 396px;
+  /* width: 900px; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  row-gap: 12px;
+  column-gap: 12px;
+  margin-left: 50px;
+  justify-content: center;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.newarrivalsimages {
+  height: 396px;
+  border: thin;
+  border-radius: 10px;
+  text-decoration: none;
+}
+/* price of photos */
+.imgbottomdetails {
+  text-decoration: none;
+}
+
+.imgbottomdetailsstyle {
+  color: black;
+}
+
+/* New Arrivals */
+.h {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 5rem;
+  font-weight: 600;
+  margin-top: 150px;
+}
+
+.h h1 {
+  font-weight: 400;
+}
+
+.h span {
+  color: #ff4321;
+  font-weight: 400px;
+}
+span {
+  font-weight: 400;
+}
+
+.section {
+  font-weight: 400px;
+}
+.h2 h1 {
+  font-size: 3rem;
+
+  margin-bottom: 5rem;
+  font-weight: 600;
+  margin-top: 5px;
+}
+.h2 span {
+  color: #ff4321;
+  font-weight: 400px;
+}
+
+.ac-center {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 80px;
+  margin-bottom: 80px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.ac {
+  text-align: center;
+  padding-bottom: 16px;
+  transition: all 500ms ease-in-out;
+  font-weight: 600;
+}
+
+.ac:hover {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.ac .img-cover {
+  overflow: hidden;
+}
+
+.ac img {
+  transition: all 500ms ease-in-out;
+}
+
+.ac:hover img {
+  transform: scale(1.2);
+}
+p {
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 567px) {
+  .h {
+    font-size: 32px;
+  }
+}
+
+.ab {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(8, 4vw);
+  gap: 2rem;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.ab .item {
+  overflow: hidden;
+}
+
+.ab img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  transition: all 500ms ease-out;
+}
+
+.ab .item-1 img {
+  object-fit: fill;
+}
+
+.ab img:hover {
+  transform: scale(1.2);
+}
+
+.item-1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 9;
+}
+
+.item-2 {
+  grid-column-start: 5;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 9;
+}
+.item-3 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 5;
+}
+
+.item-4 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 5;
+  grid-row-end: 9;
+}
+
+@media only screen and (max-width: 600px) {
+  .gallary {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(20, 4vw);
+  }
+
+  .item-1 {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 7;
+  }
+
+  .item-2 {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 7;
+    grid-row-end: 11;
+  }
+  .item-3 {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 11;
+    grid-row-end: 15;
+  }
+  .item-4 {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 15;
+    grid-row-end: 19;
+  }
+}
+.img-cover {
+  /* max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; */
+  border-radius: 10px;
+  height: 400px;
+}
+
+/*footer*/
+#footer {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  min-height: 50vh;
+  padding: 50px 100px;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#footer ul li {
+  color: white;
+  list-style: none;
+  margin: 30px 40px;
+  padding-top: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#footer ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+}
+
+#footer ul li a:hover {
+  color: #ff4321;
+}
+
+.social-links {
+  margin-left: 8%;
+  margin-top: 100px;
+}
+
+.social-links a {
+  font-size: 30px;
+  color: #606163;
+  margin-right: 20px;
+}
+
+.social-links a:hover {
+  color: #ff4321;
+}
+/* Benefits */
+.benefit-center {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 80px;
+}
+
+.benefit {
+  border: 1px solid #ccc;
+  padding: 16px 16px 32px 16px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.benefit .icon {
+  color: #ff4321;
+  font-size: 64px;
+}
+
+.benefit h4 {
+  margin-bottom: 5px;
+}
+
+.benefit .text {
+  font-size: 24px;
+  color: #777;
+}
